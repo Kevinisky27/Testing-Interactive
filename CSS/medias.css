@@ -1,0 +1,14 @@
+/*Medias de seccion1*/
+
+@media only screen and (max-width: 460px) {
+    .contenerdor_main {
+        background-size: cover;
+    }
+    .input {
+        height: 40px;
+        margin-bottom: 50%;
+    }
+    .main__title {
+        font-size: 20px;
+    }
+}
