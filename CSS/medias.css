@@ -12,3 +12,29 @@
         font-size: 20px;
     }
 }
+
+
+/*Medias de seccion principal*/
+
+@media (max-width: 54em) {
+    h1,
+    h2 {
+        line-height: 1.6rem;
+    }
+    h1 {
+        font-size: 2.5vw;
+    }
+    h2 {
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 42em) {
+    h1,
+    h2 {
+        line-height: 1.1;
+    }
+    h2 {
+        margin-top: 0.3em;
+    }
+}
