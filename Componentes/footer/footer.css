@@ -1,3 +1,5 @@
+/*----------foter---------*/
+
 .footer {
     align-items: center;
     background-color: #0060d8;
@@ -12,4 +14,17 @@
     font-size: 14px;
     padding-left: 30px;
     text-decoration: none;
+}
+
+
+/*-----medias del footer----*/
+
+@media only screen and (max-width: 600px) {
+    .main__description--title {
+        font-size: 30px;
+    }
+    .footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
