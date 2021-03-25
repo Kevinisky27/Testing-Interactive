@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900')
-
 * {
+  @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900')
   margin: 0;
   padding: 0; 
   box-sizing: border-box;
@@ -32,9 +31,10 @@ body {
 }
 
 #container .content h2 {
-  font-size: 18vw; 
+  font-size: 150px; 
   color: #fff;
   line-height: 1em;
+  padding: 0;
 }
 
 #container .content h4 {
