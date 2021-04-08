@@ -129,7 +129,7 @@ ul:hover {
 .carousel {
     overflow: auto;
     padding-left: 10px;
-    width: 100%;
+    /* width: 100%; */
     position: relative;
     padding: 0px 0px 0px 70px;
 }
