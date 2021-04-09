@@ -115,7 +115,7 @@ ul:hover {
     background: #0096c7;
     width: 100%;
     height: 100px;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 0px 10px 0px;
     border-bottom: 2px solid;
 }
 
@@ -124,6 +124,7 @@ ul:hover {
     /* position: absolute; */
     padding-left: 30px;
     width: 100%;
+    font-size: 23px;
 }
 
 .carousel {
