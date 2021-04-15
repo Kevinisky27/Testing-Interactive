@@ -8,7 +8,7 @@
 .header {
     /* padding: 0px 0px 0px 20px; */
     align-items: center;
-    background: #00b4d8;
+    background:  transparent;
     color: white;
     display: flex;
     height: 100px;
@@ -66,16 +66,41 @@ ul:hover {
     margin-right: 8px;
     width: 40px;
 }
-
+/*----------body---------*/
+body
+{
+    background: linear-gradient(#794c74, #c56183);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+    position: relative;
+}
+/*----------texto---------*/
+.text
+{
+    font-family: 'Muli', sans-serif;
+    color: #373a40;
+    text-align: justify;
+}
+h1
+{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+}
 /*----------foter---------*/
 
 .footer {
     align-items: center;
-    background-color: #0b4996;
+    background:  transparent;
     display: flex;
     height: 100px;
     width: 100%;
-    border-top: solid 10px #368187;
+    border-top: solid 7px #903749;
 }
 
 .footer a {
@@ -100,7 +125,7 @@ ul:hover {
     justify-content: space-around;
     flex-direction: column;
 
-    background: linear-gradient(#8fd9a8, #5aa897);
+    background: linear-gradient(#794c74, #c56183);
     display: flex;
     align-items: center;
     justify-content: center;
