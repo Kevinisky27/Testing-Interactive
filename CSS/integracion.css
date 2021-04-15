@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+ 
+}
+
+/*Header*/
+
+.header {
+    /* padding: 0px 0px 0px 20px; */
+    align-items: center;
+    background:  transparent;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+    border-bottom: solid 7px #536162;
+}
+
+.header__img {
+    margin-left: 30px;
+    width: 300px; 
+    height: 200px;
+}
+
+.header__menu {
+    margin-right: 30px;
+}
+
+.header__menu ul {
+    display: none;
+    list-style: none;
+    margin: 0px 0px 0px -50px;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    background-color: transparent;
+    font-family: 'Muli', sans-serif;
+    line-height: 15px;
+}
+
+.header__menu:hover ul,
+ul:hover {
+    display: block;
+}
+
+.header__menu li {
+    margin: 10px 0px;
+}
+
+.header__menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header__menu li a:hover {
+    text-decoration: underline;
+}
+
+.header__menu--profile {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.header__menu--profile img {
+    margin-right: 8px;
+    width: 40px;
+}
+/*----------body---------*/
+body
+{
+    background: linear-gradient(#9ede73, #289672);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+    position: relative;
+}
+/*----------texto---------*/
+h1
+{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 25px;
+    
+   
+}
+.text
+{
+    font-family: 'Muli', sans-serif;
+    color: #373a40;
+    text-align: justify;
+    line-height: 25px;
+}
+.text-parrafo
+{
+    padding: 35px;
+    font-size: 20px;
+}
+
+/*----------foter---------*/
+
+.footer {
+    align-items: center;
+    background:  transparent;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    border-top: solid 7px #536162;
+}
+
+.footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+/*Contenedor para contacto*/
+
+.login__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    background: linear-gradient(#9ede73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+.input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+    font-size: 18px;
+}
+.mensaje {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-color: transparent;
+    font-family: 'Muli', sans-serif;
+    outline: none;
+    height: 50px;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+textarea
+ {
+    background-color: transparent;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-color:solid white;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    resize: none;
+    height: 100px;
+    text-align: justify;
+    border-radius: 15px 15px 15px 15px;
+    color: grey;
+    font-size: 15px;
+    
+    
+}
+.button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    padding: 5px 8px 7px 8px;
+}
+
+section
+{
+    overflow: auto;
+    padding-left: 10px;
+    /* width: 100%; */
+    position: relative;
+    padding: 0px 0px 0px 70px;
+}
