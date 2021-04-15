@@ -15,12 +15,13 @@
     justify-content: space-between;
     top: 0px;
     width: 100%;
-    border-bottom: 2px solid black;
+    border-bottom: solid 7px #536162;
 }
 
 .header__img {
     margin-left: 30px;
-    width: 140px;
+    width: 300px; 
+    height: 200px;
 }
 
 .header__menu {
@@ -36,6 +37,8 @@
     width: 100px;
     text-align: right;
     background-color: transparent;
+    font-family: 'Muli', sans-serif;
+    line-height: 15px;
 }
 
 .header__menu:hover ul,
@@ -69,7 +72,7 @@ ul:hover {
 /*----------body---------*/
 body
 {
-    background: linear-gradient(#794c74, #c56183);
+    background: linear-gradient(#9ede73, #289672);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,19 +82,28 @@ body
     position: relative;
 }
 /*----------texto---------*/
+h1
+{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 25px;
+    
+   
+}
 .text
 {
     font-family: 'Muli', sans-serif;
     color: #373a40;
     text-align: justify;
+    line-height: 25px;
 }
-h1
+.text-parrafo
 {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    
+    padding: 35px;
+    font-size: 20px;
 }
+
 /*----------foter---------*/
 
 .footer {
@@ -100,7 +112,7 @@ h1
     display: flex;
     height: 100px;
     width: 100%;
-    border-top: solid 7px #903749;
+    border-top: solid 7px #536162;
 }
 
 .footer a {
@@ -125,7 +137,7 @@ h1
     justify-content: space-around;
     flex-direction: column;
 
-    background: linear-gradient(#794c74, #c56183);
+    background: linear-gradient(#9ede73);
     display: flex;
     align-items: center;
     justify-content: center;
